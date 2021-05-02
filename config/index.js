@@ -46,10 +46,16 @@ const config = {
   h5: {
     publicPath: "/",
     staticDirectory: "static",
+    devServer: {
+      port: 3002,
+      open: false,
+    },
     postcss: {
-      autoprefixer: {
+      tailwindcss: {
         enable: true,
-        config: {},
+      },
+      "taro-tailwind": {
+        enable: true,
       },
       cssModules: {
         enable: false, // 默认为 false，如需使用 css modules 功能，则设为 true

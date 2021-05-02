@@ -33,8 +33,8 @@
     "branch": "derealize",
     "runScript": "dev:h5",
     "formatScript": "format",
-    "lunchUrl": "http://192.168.1.12:10086",
-    "port": 10086,
+    "lunchUrl": "http://localhost:3002",
+    "port": 3002,
     "pages": [
       "/"
     ],
