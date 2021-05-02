@@ -26,7 +26,20 @@
     "dev:rn": "npm run build:rn -- --watch",
     "dev:qq": "npm run build:qq -- --watch",
     "dev:jd": "npm run build:jd -- --watch",
-    "dev:quickapp": "npm run build:quickapp -- --watch"
+    "dev:quickapp": "npm run build:quickapp -- --watch",
+    "format": "prettier --write **/*.{js,jsx,ts,tsx} --config ./.prettierrc"
+  },
+  "derealize": {
+    "branch": "derealize",
+    "runScript": "dev:h5",
+    "formatScript": "format",
+    "lunchUrl": "http://192.168.1.12:10086",
+    "port": 10086,
+    "pages": [
+      "/"
+    ],
+    "assets": "public/assets",
+    "applyCssFile": "styles/globals.css"
   },
   "browserslist": [
     "last 3 versions",
@@ -64,6 +77,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "postcss": "^8.2.13",
     "postcss-cli": "^8.3.1",
+    "prettier": "^2.2.1",
     "stylelint": "9.3.0",
     "tailwindcss": "^2.1.2",
     "taro-tailwind": "^1.0.2",
