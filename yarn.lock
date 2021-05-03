@@ -1131,10 +1131,10 @@
   resolved "https://registry.npmjs.org/@bang88/react-native-ultimate-listview/-/react-native-ultimate-listview-3.3.4.tgz#128828e64a7c1be1fd295ee25b5b07f323789d5d"
   integrity sha512-IyaAOxp+GvIzOrJUMCd2cAT2uilfDpijMIlYDNINBT6AQ2NfCcgFzdMMKawJITE9Yb8mxEicsJNL3OvzXbxPDw==
 
-"@derealize/babel-plugin-transform-react@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.npmjs.org/@derealize/babel-plugin-transform-react/-/babel-plugin-transform-react-1.0.7.tgz#1bfa78c9eaf5fc042b53993b9d0f001d2a347802"
-  integrity sha512-5ckTHH4WUAdkY3H8tUXmyYzkmsSio5sVkmVJ9lD7iWonzpyxymi1DaFCYhTSrViAq4ewm2yBWx+j6WeVF5DibA==
+"@derealize/babel-plugin-transform-weapp@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@derealize/babel-plugin-transform-weapp/-/babel-plugin-transform-weapp-1.0.0.tgz#b7b84d9664cd7e517d1b5c89bc3219854b703a07"
+  integrity sha512-Nlv1oUthDDAJKv20obRgXtmsl0Jy71/PYncN2586b3j6PhRKToN6uFdbehlJ2i9I7suOFogSzsKQZFrVbYI0Gg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.1"
 

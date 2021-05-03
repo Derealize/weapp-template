@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
-    "@derealize/babel-plugin-transform-react": "^1.0.7",
+    "@derealize/babel-plugin-transform-weapp": "^1.0.0",
     "@tarojs/mini-runner": "3.2.7",
     "@tarojs/webpack-runner": "3.2.7",
     "@types/react": "^17.0.2",

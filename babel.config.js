@@ -10,5 +10,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: ["@derealize/transform-react"],
+  plugins: ["@derealize/transform-weapp"],
 };
