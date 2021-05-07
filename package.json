@@ -30,7 +30,6 @@
     "format": "prettier --write **/*.{js,jsx,ts,tsx} --config ./.prettierrc"
   },
   "derealize": {
-    "branch": "derealize",
     "runScript": "dev:h5",
     "formatScript": "format",
     "lunchUrl": "http://localhost:3002",
@@ -39,7 +38,8 @@
       "/"
     ],
     "assets": "public/assets",
-    "applyCssFile": "styles/globals.css"
+    "applyCssFile": "styles/globals.css",
+    "isWeapp": true
   },
   "browserslist": [
     "last 3 versions",
